@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/hawkit/goleveldb/leveldb/errors"
+	"github.com/hawkit/goleveldb/leveldb/storage"
 )
 
 type byteReader interface {
